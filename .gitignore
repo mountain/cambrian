@@ -1,4 +1,3 @@
-.DS_Store
 .classpath
 .project
 .idea
@@ -15,10 +14,11 @@ pom.xml.asc
 /target
 /classes/
 /checkouts/
-.lein-deps-sum
-.lein-repl-history
-.lein-plugins/
-.lein-failures
+*.class
+/.lein-*
+profiles.clj
+/.env
+*.log
 
 *jar
 /lib
